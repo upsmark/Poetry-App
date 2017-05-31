@@ -1,0 +1,136 @@
+.home{
+  background-color: lightblue;
+}
+
+a{
+  color: #DA18F1;
+}
+
+/*p{
+  clear: left;
+}*/
+
+/*img{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-left: 25px;
+}*/
+
+/*.bgimgocean{
+  position: absolute;
+  background: url("kidocean.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bgimgspace{
+  position: absolute;
+  background: url("kidspace.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bgimgcity{
+  position: absolute;
+  background: url("kidcity.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bgimgdesert{
+  position: absolute;
+  background: url("kiddesert.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bgimgforest{
+  position: absolute;
+  background: url("kidforest.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.bgimgjungle{
+  position: absolute;
+  background: url("kidjungle.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}*/
+
+.moon{
+  display: inline-block;
+  float: left;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+.moonWords{
+  display: inline-block;
+  float: left;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+
+.moonp{
+  display: inline;
+
+}
+
+.ocean {
+  display: inline-block;
+  float: left;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+
+.oceanWords {
+  display: inline-block;
+  float: left;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+
+.oceanp{
+  display: inline;
+}
+
+.city {
+  display: inline-block;
+  float: left;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+
+.cityWords {
+  display: inline-block;
+  float: left;
+  width: 450px;
+  border: 2px solid gray;
+  margin-left: 25px;
+}
+
+.cityp {
+  display: inline;
+}
+
+/*.desert .desertWords{
+  border: 2px solid gray;
+  text-align: center;
+}
+
+.forest .forestWords{
+  border: 2px solid gray;
+  text-align: center;
+}*/
