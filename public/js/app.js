@@ -5,6 +5,11 @@ var app = angular.module('poems', ['ngRoute']);
 app.config(function($routeProvider){
   $routeProvider
 
+    .when('/home',{
+     controller: "redditCtrl",
+     templateUrl: "views/home.html"
+    })
+
     .when('/ocean',{
      controller: "oceanCtrl",
      templateUrl: "views/ocean.html"
@@ -56,5 +61,5 @@ app.config(function($routeProvider){
     .otherwise({
       redirectTo: "/home"
     })
-    
+
     });

@@ -13,7 +13,7 @@
 
     <title>poems</title>
   </head>
-  <body ng-app="poems" class="home" ng-controller="redditCtrl">
+  <body ng-app="poems" class="home" >
 
     <h1>Rhyme with me</h1>
      <header>
@@ -32,23 +32,9 @@
         </nav>
       </header>
 
-      <ol>Directions:
-        <li>Choose a theme from the list above.</li>
-        <li>Write your own word or words in the blank spaces provided</li>
-        <li>Use the words from the list to help you create a poem.</li>
-      </ol>
-      <h5>Some tips if you are stuck. Try describing your five senses, for example:
-        I hear...
-        I smell...
-        I taste...
-        I feel...
-        I see...<br>Remember poems do not need to rhyme.</h5>
 
       <div ng-view></div>
 
-      <p>Here are some of the latest children's poetry from Reddit:</p>
-
-      <reddit-dir ng-repeat="poem in poetry"></reddit-dir>
 
                <script src="lib/angular.min.js"></script>
                <!--<script src="lib/ui-bootstrap-tpls-2.5.0.min.js" charset="utf-8"></script>-->

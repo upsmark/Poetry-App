@@ -6,7 +6,7 @@ app.controller('redditCtrl', function($scope, $http){
 
    $http({
        method: 'GET',
-       url: 'http://www.reddit.com/r/childrenspoetry.json'
+       url: 'https://www.reddit.com/r/childrenspoetry.json'
      }).then(function yayPoetry(response){
         $scope.poetry = response.data.data.children;
         console.log($scope.poetry);
