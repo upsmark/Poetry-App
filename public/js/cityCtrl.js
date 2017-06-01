@@ -2,6 +2,7 @@ var app = angular.module("poems");
 
 app.controller("cityCtrl", function($scope, myService, $location){
 
+    // -- For city view
     $scope.obj = {};
 
     $scope.submitPoem = function(){
@@ -16,6 +17,7 @@ app.controller("cityCtrl", function($scope, myService, $location){
 
   };
 
+    // -- For display-city view
     $scope.obj1 = myService.giveWords();
 
 })

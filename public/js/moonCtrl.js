@@ -3,7 +3,8 @@ var app = angular.module("poems");
 app.controller("moonCtrl",
 function($scope, myService, $location){
 
-  $scope.obj = {};
+   // -- For moon view
+   $scope.obj = {};
 
   $scope.submitPoem = function(){
 
@@ -15,6 +16,7 @@ function($scope, myService, $location){
 
 };
 
+// -- For display-moon view
 $scope.obj5 = myService.giveWords();
 
 })

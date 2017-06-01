@@ -2,18 +2,20 @@ var app = angular.module("poems");
 
 app.controller("oceanCtrl", function($scope, myService, $location){
 
-$scope.obj = {};
+  // -- For ocean view
+  $scope.obj = {};
 
-$scope.submitPoem = function(){
+  $scope.submitPoem = function(){
 
-myService.getWords($scope.obj);
+      myService.getWords($scope.obj);
 
-console.log($scope.obj);
+      console.log($scope.obj);
 
-$location.path('/display-ocean');
+      $location.path('/display-ocean');
 
-};
+  };
 
- $scope.obj6 = myService.giveWords();
+  // -- For display-ocean view
+  $scope.obj6 = myService.giveWords();
 
 })
