@@ -3,23 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Barrio|Fjalla+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy" rel="stylesheet">
+      <title>poems</title>
+       </head>
+        <body ng-app="poems" class="home" >
 
-        <!--Bootstrap CSS-->
-        <!--<link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">-->
-        <!--CSS-->
-        <link rel="stylesheet" href="css/styles.css">
-
-    <title>poems</title>
-  </head>
-  <body ng-app="poems" class="home" >
-
-    <h1>Rhyme with me</h1>
-     <header>
-       <nav class="navbar navbar-default">
-         <div class="container">
-           <div class="navbar-header">
+         <h1>Rhyme with me</h1>
+          <header>
+            <nav class="navbar navbar-default">
+             <div class="container">
+              <div class="navbar-header">
                <a href="#!/home">Home</a>
                <a href="#!/ocean">Fun in the ocean</a>
                <a href="#!/moon">On the moon</a>
@@ -27,17 +23,14 @@
                <a href="#!/city" ng-hide="image">Life in the big city</a>
                <!--<a href="#!/jungle">What's in the jungle?</a>-->
                <!--<a href="#!/desert">Night in the desert</a>-->
-            </div>
-          </div>
-        </nav>
-      </header>
+              </div>
+             </div>
+            </nav>
+           </header>
 
-
-      <div ng-view></div>
-
+           <div ng-view></div>
 
                <script src="lib/angular.min.js"></script>
-               <!--<script src="lib/ui-bootstrap-tpls-2.5.0.min.js" charset="utf-8"></script>-->
                <script src="lib/angular-route.min.js"></script>
                <script src="js/app.js" charset="utf-8"></script>
                <script src="js/factory.js"></script>
@@ -50,5 +43,5 @@
                <script src="js/moonCtrl.js"></script>
                <script src="js/oceanCtrl.js"></script>
 
-  </body>
+        </body>
 </html>

@@ -1,11 +1,10 @@
 var app = angular.module("poems");
 
-app.controller("cityCtrl", function($scope,myService, $location){
+app.controller("cityCtrl", function($scope, myService, $location){
 
-  $scope.obj = {};
+    $scope.obj = {};
 
-
-  $scope.submitPoem = function(){
+    $scope.submitPoem = function(){
 
     myService.getWords($scope.obj);
 
@@ -17,6 +16,6 @@ app.controller("cityCtrl", function($scope,myService, $location){
 
   };
 
-  $scope.obj1 = myService.giveWords();
+    $scope.obj1 = myService.giveWords();
 
 })
